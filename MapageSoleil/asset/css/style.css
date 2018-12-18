@@ -1,0 +1,86 @@
+body{
+	background-image: url("../img/po.png");
+	background-position: top right;
+	background-repeat:no-repeat;
+	background-attachment: fixed;/*elle fixe l'image,même lors des déplacement l'image garde la même position*/
+
+}
+body{
+
+	width: 100%;
+}
+
+}
+p{
+	text-align: justify;
+}
+h1{
+	text-shadow: 6px 25px 19px blue;
+}
+
+p{
+	border: 5px green double;
+border-radius: 7px ;
+box-shadow: 12px 10px 16px yellow inset;
+
+}
+p[class]{
+	border: none;
+	box-shadow: none;
+}
+section article h1 {
+	width: 320px;
+	height: 100px;
+	box-shadow: 12px 2px 20px yellow;
+	border: dotted;
+	background-color: blue;
+}
+ul {
+	
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	width:10%;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+
+}
+li a{ 
+display: block;
+text-decoration: none;
+
+
+}
+li a {padding:4px;
+border: ;
+background-color: green;
+color: red;
+	}
+	li a:hover:not(.menu){
+	background-color: rgb(0,0,255);
+	color: #ffffff;
+	}
+.menu{
+		background-color: black;
+		color: #ffffff;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
