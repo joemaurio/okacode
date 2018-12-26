@@ -1,4 +1,4 @@
-body{margin: 0;padding: 0;background-image: url("../img/ciel.gif");background-repeat: no-repeat;background-size: 100%;}
+body{margin: 0;padding: 0;background-image: url("../img/ciela3.gif");background-repeat: no-repeat;background-size: 100%;width: 800px;margin: 0 auto;}
 header{display: flex;flex-direction: row;background-color:rgba(255,0,0,23%) ;align-items: stretch;height: 100px;}
 section{display: flex;flex-direction: row;background-color: ;align-items: stretch;}
 aside{background-color: yellow;}
