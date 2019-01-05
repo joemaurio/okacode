@@ -1,0 +1,39 @@
+.reservit {padding:10px 10px 0px 10px}
+.reservit input[type="text"], .reservit input[type="number"] {background-color:rgba(255,255,255,1);color:#000;padding:6px;margin:2px 0 0 0;outline:0}
+.reservit input[type="number"] {border:0px solid #000;width: 100%;border-radius:7px;padding:6px}
+
+.reservit input[type="text"] {border: 0px solid #000;width:88%;border-radius: 7px 0px 0px 7px}
+.reservit input[type="text"]::-webkit-calendar-picker-indicator{visibility: hidden !important}
+.reservit input[type="text"]::-webkit-input-placeholder{visibility: hidden !important}
+.reservit input[type="text"]::-webkit-inner-spin-button {-webkit-appearance: none;display: none}
+
+.reservit h4 {margin: 0px;padding: 7px;font-size:14px;font-family:Amelia Ob Bold, sans-serif}
+h4.reservit-tarif {border: 1px solid #fff}
+h4.reservit-reserver {border-radius:6px}
+h4.reservit-reserver-enable {text-transform:uppercase;background-color:#AD0A4E;color:#FFF}
+.reservit span#reservit_return_tarif {color:#ad0a4e}
+.reservit .personne i {background-color:#ad0a4e;padding:6px;top:0px;background-color:#ad0a4e}
+.reservit .personne label {display:inherit;cursor:pointer}
+
+h4.reservit-reserver-disable {text-transform:uppercase;background-color:#B1B1B1;color:#FFF}
+h4.reservit-reserver-enable-hover {text-transform:uppercase;background-color:#FFF;color:#AD0A4E;cursor:pointer}
+.reservit p {margin:3px 0px 0px 0px;font-size:100%}
+.reservit-error-row p {color:#AD0A4E}
+
+#reservation-page {margin:5px 0 30px 0}
+#reservation-page .reservit input[type="text"] {border: 1px solid #c9c9c9;width:84%;border-radius: 7px 0px 0px 7px}
+#reservation-page .reservit input[type="number"] {border:1px solid #c9c9c9;width: 100%;border-radius:7px;padding:6px}
+#reservation-page .reservit .personne i {background-color:#ad0a4e;padding:6px;top:0px;border:1px solid #ad0a4e;color:#fff}
+#reservation-page h4.reservit-tarif {background-color:#242423;color:#fff;padding:8px}
+#reservation-page .reservit h4 {padding:10px}
+#reservation-page h4.reservit-reserver-enable-hover {background-color:#242423;color:#fff}
+
+/*********************************************
+DATEPICKER CUSTOM
+*********************************************/
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {color:#ad0a4e}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover {
+border-color:#ad0a4e;background:#ad0a4e}
+.ui-datepicker td span, .ui-datepicker td a {text-align:center}
+.ui-datepicker-today .ui-state-hover, .ui-widget-content .ui-state-hover.ui-datepicker-today {background:#fff}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {background:#88073d;border-color:#ad0a4e}

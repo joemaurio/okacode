@@ -1,0 +1,87 @@
+/*la page*/
+body{margin: 0;padding: 0;}
+a{text-decoration: none;color:#000;}
+li{list-style-type: none;display: inline-block;}
+*{box-sizing: border-box;}
+ul{display: inline-block;}
+
+
+
+
+
+/*header*/
+header{
+	background-color: rgba(0,0,0,0.9);
+	line-height: 400px;
+	display: flex;flex-direction: column;justify-content:center;
+	background-image: url("../img/anais.jpg");background-repeat: no-repeat;background-size: cover;
+}
+
+header div:first-child{display: flex;flex-direction: row;justify-content: space-between;margin: auto 5%;align-items: center;line-height: 100px;}
+
+
+
+header div:nth-child(2){text-align: center;}
+
+/*.logo{background-color: #fff;margin: auto 35%;}*/
+
+/*section-after header*/
+header+section{}
+
+header+section div:first-child{text-align: center;}
+header+section nav:nth-child(2){background-color: rgba(0,0,0,0.7);line-height: 15vh;display: flex;justify-content: center;}
+nav+div{text-align: center;}
+header+section div:nth-child(4){display: flex;flex-direction: row;justify-content: center;}
+header+section div:nth-child(5){display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.search{width: 40vh;}
+
+
+
+
+/*section-last section*/
+section+section{display: grid;grid-template-columns: 1fr 1fr 1fr; grid-auto-rows: minmax(40vh, auto);justify-items:center;align-items: center;}
+
+
+
+
+
+
+
+
+/*footer*/
+footer{background-color: green;}
+footer div:first-child{background-color: green;display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;}
+footer div:last-child{background-color:#000;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pad-0{padding: 0;}
+
+.bg-A{background-color: rgba(125,41,135,0.8);}
+.bg-B{background-color: rgba(25,52,35,0.5);}
+.bg-D{background-color: rgba(25,52,35,0.2);}
+.bg-E{background-color: rgba(25,140,35,0.8);}
+.bg-F{background-color: rgba(25,52,35,0.3);}
+.bg-G{background-color: rgba(25,52,100,0.5);}
+.bg-H{background-color: rgba(25,52,35,0.2);}
+.bg-I{background-color: rgba(25,52,55,0.4);}
+.bg-J{background-color: rgba(2,52,35,0.9);}
+.bg-K{background-color: rgba(115,52,45,0.8);}
+
+/*img{width: 100%;}*/
